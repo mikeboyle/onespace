@@ -7,7 +7,6 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*", "file:///*"],
-      // "match_about_blank": false,
       "js": ["noDoubleSpace.js"],
       "run_at": "document_end",
       "all_frames": true
