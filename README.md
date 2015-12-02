@@ -1,4 +1,4 @@
-In a perfect world, everyone would understand that you need to type ONLY ONE space after the end of a sentence. Just like this. But not like this.  Or like this!  Got it? Good!
+In a perfect world, everyone would understand that you need to type ONLY ONE space after the end of a sentence. Just like this. Got it? Good!
 
 Sadly, we may never live in that utopia. Our social media feeds and inboxes are littered with superfluous double spaces left by writers who still believe in the outmoded rules of 1980s typing class. 
 
