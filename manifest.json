@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "OneSpace",
   "version": "0.0.1",
-  "description": "Never see superfluous spaces again. This extension scans every Web site you visit and automatically replaces multiple spaces after end punctuation with a single space. You are welcome.",
+  "description": "No more double spaces after periods! With OneSpace, every site you visit will show only one space after end punctuation.",
   "author": "Mike Boyle",
   "content_scripts": [
     {
