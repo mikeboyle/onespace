@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "OneSpace",
+  "version": "0.1.0",
+  "description": "Never see superfluous spaces again. This extension scans every Web site you visit and automatically replaces multiple spaces after end punctuation with a single space. It will also prevent you from typing multiple spaces between sentences. You are welcome.",
+  "author": "Mike Boyle",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file:///*"],
+      // "match_about_blank": false,
+      "js": ["noDoubleSpace.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+
+}
