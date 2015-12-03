@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "OneSpace",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "No more double spaces after periods! With OneSpace, every site you visit will show only one space after end punctuation.",
   "author": "Mike Boyle",
   "content_scripts": [

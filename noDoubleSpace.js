@@ -16,6 +16,8 @@ function fixAllText(node){
     node = node.firstChild;
     while (node) {
       if (node.nodeType == 3) {
+        var el = node.parentElement;
+        if (el.parentElement.hasAttribute('contenteditable')) { return false; };
         node.textContent = node.textContent.singleSpace();
       } else {
           fixAllText(node);
