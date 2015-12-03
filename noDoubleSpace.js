@@ -4,8 +4,8 @@ Function.prototype.method = function(name, func) {
 };
 
 String.method('singleSpace', function() {
-  var text = this.replace(/\u00a0/g, ""); // get rid of &nbsp; that may have been converted
-  return text.replace(/[.|?|!]["|'|\u2019|\u201d]*\s{2,}/g, function(a, b) {
+  var text = this.replace(/\u00a0(?!$)/g, "  "); // unicode for &nbsp not at end of line
+  return text.replace(/[.|?|!]["|'|\u2019|\u201d]*\s{2,}(?!$)/g, function(a, b) { // unicode for curly quotes
     var lastIndex = a[1] === " " ? 2 : 3;
     return a.substring(0, lastIndex);
   });
